@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        ROOT_DIR : ./build/zzeng
+#        ROOT_DIR : ./build/zzeng
         ARARN_CSR_CRT: arn_zz1
         ENV : test02
 
@@ -17,5 +17,5 @@ phases:
 
 artifacts:
   files:
-    - ./build/zzeng/Dockerfile
+    - ./Dockerfile
     - ./build/zzeng/taskdef_${ENV}.json

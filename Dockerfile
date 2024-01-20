@@ -7,7 +7,7 @@ ARG SOME_CONDITION
 WORKDIR /app
 
 # copy
-COPY . /app
+COPY build/zzeng /app
 
 # install necessary ones
 RUN pip install --no-cache-dir -r requirements.txt
