@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        ROOT_DIR : ./z_root_ap
+        ROOT_DIR : ./build/zzeng
         ARARN_CSR_CRT: arn_zz1
         ENV : test02
 
@@ -13,6 +13,7 @@ phases:
     post_build:
         commands:
           - echo "zzeng-001-post_build"
+          -
           - docker build --build-arg SOME_CONDITION=true -t zzeng02-t .
 
 
