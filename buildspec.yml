@@ -4,6 +4,7 @@ env:
     variables:
         ROOT_DIR : ./mcap
         ARARN_CSR_CRT: arn_zz1
+        ENV : test02
 
 phases:
   pre_build:
