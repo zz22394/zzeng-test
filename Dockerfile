@@ -39,4 +39,3 @@ RUN if [ "$SOME_CONDITION" = "true" ]; then \
     fi
 
 CMD ["python", "run.py"]
-
