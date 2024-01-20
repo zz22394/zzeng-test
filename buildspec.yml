@@ -1,0 +1,18 @@
+version: 0.2
+
+env:
+    variables:
+        ROOT_DIR : ./mcap
+        ARARN_CSR_CRT: arn_zz1
+
+phases:
+  pre_build:
+      commands:
+        - echo "zzeng-001"
+
+
+
+
+artifacts:
+  files:
+    - ./build/zzeng/taskdef_$({ENV}.json
