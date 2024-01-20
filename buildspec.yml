@@ -7,9 +7,12 @@ env:
         ENV : test02
 
 phases:
-  pre_build:
-      commands:
-        - echo "zzeng-001"
+    pre_build:
+        commands:
+          - echo "zzeng-001-pre_build"
+    post_build:
+        commands:
+          - echo "zzeng-001-post_build"
 
 
 artifacts:
