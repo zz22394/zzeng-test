@@ -1,0 +1,10 @@
+{
+  "ipcMode": null,
+  "containerDefinitions" : [
+    {
+      "dnsSearchDomains": [],
+      "environmentFiles": [],
+      "entryPoint": []
+    }
+  ]
+}
