@@ -33,7 +33,7 @@ RUN if [ "${SOME_CONDITION}" = "true" ]; then \
 fi
 
 RUN if [ "$SOME_CONDITION" = "true" ]; then \
-        cp app.py run.py; \
+        cp app01.py run.py; \
     else \
         cp app02.py run.py; \
     fi
