@@ -11,8 +11,6 @@ phases:
         - echo "zzeng-001"
 
 
-
-
 artifacts:
   files:
     - ./build/zzeng/taskdef_$({ENV}.json
