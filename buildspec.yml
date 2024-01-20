@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        ROOT_DIR : ./mcap
+        ROOT_DIR : ./z_root_ap
         ARARN_CSR_CRT: arn_zz1
         ENV : test02
 
